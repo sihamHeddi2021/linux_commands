@@ -10,4 +10,16 @@
 * ls <name-dir>/*.* : any type of files
 * ls > out.txt : save command result inside out.txt 
 
+## Cd command 
+
+* cd ~ => move to home directory
+* cd / => move to roo directory
+
+## Cat command
+
+* cat => to display the content of filw
+* cat -s => squeeze space
+* cat -b => set numbers for non empty lines
+* cat -n => set numbers for all lines
+* cat -e => set $ to the end of line
 
