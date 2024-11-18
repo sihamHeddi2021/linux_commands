@@ -28,3 +28,23 @@ you have wrote in terminal
 * cat list2.txt >> list3.txt => append 
 * cat <filename1> <filename2>
 
+## mkdir command
+
+* mkdir <dir_name>
+* mkdir -p <dir_name1>/<dir_name2> => if dir_name1 does not exist
+* mkdir <dir_name>/{sub1,sub2,sub3} => to create multiple sub 
+directories in same time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
