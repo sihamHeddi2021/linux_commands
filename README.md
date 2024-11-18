@@ -22,4 +22,9 @@
 * cat -b => set numbers for non empty lines
 * cat -n => set numbers for all lines
 * cat -e => set $ to the end of line
+* cat > list.txt => create new file with name
+ "list.txt" if doesnot exist than copy the content what 
+you have wrote in terminal 
+* cat list2.txt >> list3.txt => append 
+* cat <filename1> <filename2>
 
