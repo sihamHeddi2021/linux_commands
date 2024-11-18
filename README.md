@@ -50,9 +50,21 @@ directories in same time
 * cp -i dir1 dir2 => interactive mode to ask you 
 if you would like to overwrite dir2 if exists
 
+## mv command
 
+* mv h.txt l.txt
+* mv dir1 dir2
+* mv -i s.txt dir1/s.txt
 
+## less command
 
+to show less content
 
-
+* G => go to the end
+* g => go to the top
+* up => scroll up
+* down => scroll down
+* space => go to next page
+* ? => search word , n => next word occurance
+* q => to quit
 
