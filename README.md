@@ -36,7 +36,11 @@ you have wrote in terminal
 directories in same time
 
 
+## rm & rmdir command
 
+* rm -r => remove non empty directories
+* rmdir => remove empty directories
+* rmdir -p <dir1>/<dir2>/<dir3> => remove dir1 , dir2, dir3
 
 
 
