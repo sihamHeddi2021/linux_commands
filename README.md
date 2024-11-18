@@ -9,6 +9,7 @@
 * ls <name-dir>/*.html : get only html files
 * ls <name-dir>/*.* : any type of files
 * ls > out.txt : save command result inside out.txt 
+* ls -R
 
 ## Cd command 
 
@@ -42,9 +43,12 @@ directories in same time
 * rmdir => remove empty directories
 * rmdir -p <dir1>/<dir2>/<dir3> => remove dir1 , dir2, dir3
 
+## cp command
 
-
-
+* cp h.txt f.txt
+* cp -r dir1 dir2 
+* cp -i dir1 dir2 => interactive mode to ask you 
+if you would like to overwrite dir2 if exists
 
 
 
