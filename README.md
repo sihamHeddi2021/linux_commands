@@ -68,3 +68,37 @@ to show less content
 * ? => search word , n => next word occurance
 * q => to quit
 
+## chmod command 
+
+to change permissions
+
+ls -l =>  <file_type>(r)ead(w)rite(x)exectuble 
+u(user) g(group) o(other)
+
+* chmod u+x <file_name> => add exectuble permission for user
+* chmod u-x <file_name> => remove //    //          //
+* chmod ugo=rwx
+* chmod a=rw  
+* chmod u-r,g+r,o=rwx
+
+There is also numerical representation :
+
+chmod 746 <file_name>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
