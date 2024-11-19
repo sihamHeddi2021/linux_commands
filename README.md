@@ -85,20 +85,23 @@ There is also numerical representation :
 
 chmod 746 <file_name>
 
+## adduser command 
+sudo useradd -m <username> -s /bin/bash -g users
 
+* -m => create home folder for this user
+* -s => default shel
+* -g => user groups
 
+## userdel 
 
+* sudo userdel -r <username>
+* or remove user home directory
 
+## add,assign user to group, delete group
 
-
-
-
-
-
-
-
-
-
-
-
+* sudo groupadd <group_name>
+* cat /etc/group 
+* sudo groupdel <group_name>
+* sudo gpasswd -a <user_name> <group_name>
+* sudo gpasswd -d // //
 
