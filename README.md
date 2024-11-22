@@ -105,3 +105,95 @@ sudo useradd -m <username> -s /bin/bash -g users
 * sudo gpasswd -a <user_name> <group_name>
 * sudo gpasswd -d // //
 
+## tar command
+
+* to create tar file => tar -cvf  <out_file.tar> <dir_name>
+* to extract tar file => tar -xvf // //
+
+## top command
+
+===== keys =====
+
+* i => only active process
+* s => change the duration
+* k => to kill process
+
+## kill
+
+* kill <pid>
+
+
+## pidof 
+
+* pidof <name>
+
+## ps 
+
+* ps -aux => for all users
+* ps -U <username>
+* ps -C <name> => pid of instances
+
+## df 
+
+storage information for the whole system
+
+* -h => more humanized result
+
+## du 
+
+storage for specific directory 
+
+* -s => summary
+
+
+## free 
+
+* display the amount of free and used memory(also swap memory ) in the system
+* -m => megabyte
+* -k => kilobyte
+* -g => gigabyte
+and so on .....
+
+## whatis
+
+short descritption of command
+
+## which 
+
+the location of command
+
+## watch
+
+* to watch command every 2 seconds
+* you can change the duration by typing "watch -n <number_of_seconds> <command>"
+
+## head, tail 
+
+* head => show top of file
+* head -n3 => show first three lines 
+* tail => show bottom of file
+* tail -f => dont quit the command to append more new results if file has been changed 
+
+## find 
+
+* find <location> -name <pattern | file_name> 
+* find <location> -mtime (+<number_of_days> => before specified number of days 
+, - => after days, none => in specified day )
+
+## grep 
+
+to search patterns in specified file
+
+* grep -i "pattern" => insensative
+* grep -n => show number 
+* grep -V => show lines those dont contain
+ the specified pattern
+
+ 
+
+
+
+
+
+
+
